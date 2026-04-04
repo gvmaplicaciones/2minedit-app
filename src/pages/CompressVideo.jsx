@@ -6,6 +6,7 @@ import { FFmpeg } from '@ffmpeg/ffmpeg'
 import { fetchFile } from '@ffmpeg/util'
 import FeedbackButton from '../components/FeedbackButton'
 import RelatedTools from '../components/RelatedTools'
+import ToolSeoSection from '../components/ToolSeoSection'
 
 const CORE_JS   = `${location.origin}/ffmpeg-core.js`
 const CORE_WASM = `${location.origin}/ffmpeg-core.wasm`
@@ -172,6 +173,7 @@ export default function CompressVideo() {
         )}
 
         <ErrorCard status={status} errorMsg={errorMsg} onReset={reset} isEN={isEN} />
+        <ToolSeoSection toolKey="compressVideo" />
         <RelatedTools currentKey="compressVideo" isEN={isEN} />
       </ToolLayout>
 

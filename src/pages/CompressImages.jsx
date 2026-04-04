@@ -6,6 +6,7 @@ import imageCompression from 'browser-image-compression'
 import JSZip from 'jszip'
 import FeedbackButton from '../components/FeedbackButton'
 import RelatedTools from '../components/RelatedTools'
+import ToolSeoSection from '../components/ToolSeoSection'
 import { ToolLayout, ToolHeader, PrimaryBtn, ResetBtn, btnStyle, ResultCard } from './CompressVideo'
 
 function fmt(bytes) {
@@ -350,6 +351,7 @@ export default function CompressImages() {
             />
           </ResultCard>
         )}
+        <ToolSeoSection toolKey="compressImages" />
         <RelatedTools currentKey="compressImages" isEN={isEN} />
       </ToolLayout>
 

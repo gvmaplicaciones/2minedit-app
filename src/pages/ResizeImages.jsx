@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async'
 import JSZip from 'jszip'
 import FeedbackButton from '../components/FeedbackButton'
 import RelatedTools from '../components/RelatedTools'
+import ToolSeoSection from '../components/ToolSeoSection'
 import { ToolLayout, ToolHeader, PrimaryBtn, ResetBtn, btnStyle } from './CompressVideo'
 
 const PRESETS = [
@@ -559,6 +560,7 @@ export default function ResizeImages() {
             <button onClick={reset} style={btnStyle}>{isEN ? 'Try again' : 'Reintentar'}</button>
           </div>
         )}
+        <ToolSeoSection toolKey="resizeImages" />
         <RelatedTools currentKey="resizeImages" isEN={isEN} />
       </ToolLayout>
 

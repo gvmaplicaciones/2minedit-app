@@ -6,6 +6,7 @@ import { FFmpeg } from '@ffmpeg/ffmpeg'
 import { fetchFile } from '@ffmpeg/util'
 import FeedbackButton from '../components/FeedbackButton'
 import RelatedTools from '../components/RelatedTools'
+import ToolSeoSection from '../components/ToolSeoSection'
 import { ToolLayout, ToolHeader, UploadZone, ProgressBar, ResultCard, ErrorCard, PrimaryBtn, ResetBtn, btnStyle } from './CompressVideo'
 
 const CORE_JS   = `${location.origin}/ffmpeg-core.js`
@@ -151,6 +152,7 @@ export default function VideoToGif() {
         )}
 
         <ErrorCard status={status} errorMsg={errorMsg} onReset={reset} isEN={isEN} />
+        <ToolSeoSection toolKey="videoToGif" />
         <RelatedTools currentKey="videoToGif" isEN={isEN} />
       </ToolLayout>
 

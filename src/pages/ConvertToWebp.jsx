@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet-async'
 import JSZip from 'jszip'
 import FeedbackButton from '../components/FeedbackButton'
 import RelatedTools from '../components/RelatedTools'
+import ToolSeoSection from '../components/ToolSeoSection'
 import { ToolLayout, ToolHeader, PrimaryBtn, ResetBtn, btnStyle } from './CompressVideo'
 
 function fmt(bytes) {
@@ -389,6 +390,7 @@ export default function ConvertToWebp() {
             />
           </div>
         )}
+        <ToolSeoSection toolKey="convertToWebp" />
         <RelatedTools currentKey="convertToWebp" isEN={isEN} />
       </ToolLayout>
 
