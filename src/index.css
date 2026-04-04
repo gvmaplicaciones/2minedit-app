@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* NO flex on #root — the editor uses h-screen and must not be inside a flex column */
+#root {
+  min-height: 100vh;
+}
+
+/* Tool grid — column layout only; no inline style overrides */
+.tools-grid {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 900px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .hero-section {
+    padding-top: 48px !important;
+    padding-bottom: 36px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .tools-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px !important;
+  }
+  .hero-section {
+    padding: 36px 20px 28px !important;
+  }
+  .grid-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 48px !important;
+  }
+  .seo-section {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+}
+
+/* Shared button styles */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  background-color: #e87040;
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  text-decoration: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.88;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  background-color: #1a1a1a;
+  border: 1px solid #2a2a2a;
+  border-radius: 99px;
+  font-size: 11px;
+  color: #888;
+}
