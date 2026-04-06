@@ -19,7 +19,7 @@ i18n
     },
     detection: {
       order: ['path', 'navigator'],
-      lookupFromPathIndex: 0,
+      lookupFromPathIndex: 1,
     },
   })
 

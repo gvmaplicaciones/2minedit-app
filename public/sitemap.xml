@@ -6,15 +6,15 @@
   <url>
     <loc>https://2minedit.com/</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/</loc>
+    <loc>https://2minedit.com/en</loc>
     <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>

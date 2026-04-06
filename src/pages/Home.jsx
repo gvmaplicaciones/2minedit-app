@@ -88,9 +88,9 @@ export default function Home() {
       <Helmet>
         <title>{t('meta.homeTitle')}</title>
         <meta name="description" content={t('meta.homeDescription')} />
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/' : 'https://2minedit.com/'} />
+        <link rel="canonical" href={isEN ? 'https://2minedit.com/en' : 'https://2minedit.com/'} />
         <link rel="alternate" hrefLang="es" href="https://2minedit.com/" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/" />
+        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en" />
         <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/" />
       </Helmet>
 
