@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { FFmpeg } from '@ffmpeg/ffmpeg'
 import { fetchFile } from '@ffmpeg/util'
@@ -20,9 +19,8 @@ function fmt(bytes) {
 }
 
 export default function VideoToGif() {
-  const { i18n } = useTranslation()
   const loc = useLocation()
-  const isEN = i18n.language === 'en' || loc.pathname.startsWith('/en')
+  const isEN = loc.pathname.startsWith('/en')
 
   const [file, setFile]               = useState(null)
   const [start, setStart]             = useState(0)

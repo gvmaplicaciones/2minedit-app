@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import imageCompression from 'browser-image-compression'
 import JSZip from 'jszip'
@@ -30,9 +29,8 @@ async function downloadZip(results) {
 }
 
 export default function CompressImages() {
-  const { i18n } = useTranslation()
   const loc = useLocation()
-  const isEN = i18n.language === 'en' || loc.pathname.startsWith('/en')
+  const isEN = loc.pathname.startsWith('/en')
 
   const [files, setFiles]           = useState([])
   const [quality, setQuality]       = useState(80)

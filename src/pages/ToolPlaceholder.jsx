@@ -3,9 +3,9 @@ import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 
 export default function ToolPlaceholder({ titleES, titleEN, descES, descEN }) {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const location = useLocation()
-  const isEN = i18n.language === 'en' || location.pathname.startsWith('/en')
+  const isEN = location.pathname.startsWith('/en')
 
   const title = isEN ? titleEN : titleES
   const desc = isEN ? descEN : descES

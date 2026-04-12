@@ -27,7 +27,7 @@ export default function Navbar() {
   const location = useLocation()
   const navigate = useNavigate()
 
-  const isEN = i18n.language === 'en' || location.pathname.startsWith('/en')
+  const isEN = location.pathname.startsWith('/en')
   const homeHref = isEN ? '/en' : '/'
 
   function switchLang(lang) {

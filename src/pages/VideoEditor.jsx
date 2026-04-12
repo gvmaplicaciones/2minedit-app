@@ -30,9 +30,9 @@ const s = {
 }
 
 export default function VideoEditor() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const location = useLocation()
-  const isEN = i18n.language === 'en' || location.pathname.startsWith('/en')
+  const isEN = location.pathname.startsWith('/en')
 
   return (
     <>

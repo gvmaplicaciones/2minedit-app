@@ -77,9 +77,9 @@ function FaqItem({ q, a }) {
 }
 
 export default function Home() {
-  const { t, i18n } = useTranslation()
+  const { t } = useTranslation()
   const location = useLocation()
-  const isEN = i18n.language === 'en' || location.pathname.startsWith('/en')
+  const isEN = location.pathname.startsWith('/en')
   const prefix = isEN ? '/en/' : '/'
   const faq = t('home.faq', { returnObjects: true })
 

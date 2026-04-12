@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import { FFmpeg } from '@ffmpeg/ffmpeg'
 import { fetchFile } from '@ffmpeg/util'
@@ -23,9 +22,8 @@ function fmt(bytes) {
 }
 
 export default function CompressVideo() {
-  const { i18n } = useTranslation()
   const loc = useLocation()
-  const isEN = i18n.language === 'en' || loc.pathname.startsWith('/en')
+  const isEN = loc.pathname.startsWith('/en')
 
   const [file, setFile]               = useState(null)
   const [mode, setMode]               = useState('balance')
@@ -184,7 +182,7 @@ export default function CompressVideo() {
 
 // ── Shared sub-components ─────────────────────────────────────────────────────
 
-export function ToolLayout({ isEN, children }) {
+export function ToolLayout({ children }) {
   return (
     <div style={{ minHeight: '100vh', backgroundColor: '#0f0f0f', color: '#fff', fontFamily: 'Inter, system-ui, sans-serif' }}>
       <div style={{ maxWidth: 680, margin: '0 auto', padding: '80px 32px 80px' }}>

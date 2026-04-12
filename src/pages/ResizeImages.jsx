@@ -1,6 +1,5 @@
 import { useState, useRef } from 'react'
 import { useLocation } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
 import { Helmet } from 'react-helmet-async'
 import JSZip from 'jszip'
 import FeedbackButton from '../components/FeedbackButton'
@@ -51,9 +50,8 @@ function getImageDimensions(file) {
 }
 
 export default function ResizeImages() {
-  const { i18n } = useTranslation()
   const loc = useLocation()
-  const isEN = i18n.language === 'en' || loc.pathname.startsWith('/en')
+  const isEN = loc.pathname.startsWith('/en')
 
   const [files, setFiles]               = useState([])
   const [isDragging, setIsDragging]     = useState(false)
