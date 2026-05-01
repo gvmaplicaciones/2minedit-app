@@ -64,8 +64,8 @@ export default function ConvertToWebp() {
     ? 'Convert your JPG and PNG images to WebP format online for free. Reduce file size by up to 30%. No install, no signup.'
     : 'Convierte tus imágenes JPG y PNG a formato WebP online gratis. Reduce el peso hasta un 30%. Sin instalar nada, sin registrarte.'
   const canonical = isEN
-    ? 'https://2minedit.com/en/convert-to-webp'
-    : 'https://2minedit.com/convert-to-webp'
+    ? 'https://www.2minedit.com/en/convert-to-webp'
+    : 'https://www.2minedit.com/convert-to-webp'
 
   function addFiles(newFiles) {
     const filtered = Array.from(newFiles).filter(f =>
@@ -136,9 +136,9 @@ export default function ConvertToWebp() {
         <title>{title}</title>
         <meta name="description" content={desc} />
         <link rel="canonical" href={canonical} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/convert-to-webp" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/convert-to-webp" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/convert-to-webp" />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/convert-to-webp" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/convert-to-webp" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/convert-to-webp" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",

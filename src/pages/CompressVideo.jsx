@@ -84,15 +84,15 @@ export default function CompressVideo() {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={desc} />
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/compress-video' : 'https://2minedit.com/compress-video'} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/compress-video" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/compress-video" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/compress-video" />
+        <link rel="canonical" href={isEN ? 'https://www.2minedit.com/en/compress-video' : 'https://www.2minedit.com/compress-video'} />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/compress-video" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/compress-video" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/compress-video" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": isEN ? "Compress Video Online Free | 2minedit" : "Comprimir vídeo online gratis | 2minedit",
-          "url": isEN ? "https://2minedit.com/en/compress-video" : "https://2minedit.com/compress-video",
+          "url": isEN ? "https://www.2minedit.com/en/compress-video" : "https://www.2minedit.com/compress-video",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "Web",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },

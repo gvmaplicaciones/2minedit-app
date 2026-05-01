@@ -4,144 +4,144 @@
 
   <!-- Home -->
   <url>
-    <loc>https://2minedit.com/</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/"/>
+    <loc>https://www.2minedit.com/</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/"/>
+    <loc>https://www.2minedit.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/"/>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <!-- Compress Video -->
   <url>
-    <loc>https://2minedit.com/compress-video</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/compress-video"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/compress-video"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/compress-video"/>
+    <loc>https://www.2minedit.com/compress-video</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/compress-video"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/compress-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/compress-video"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/compress-video</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/compress-video"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/compress-video"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/compress-video"/>
+    <loc>https://www.2minedit.com/en/compress-video</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/compress-video"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/compress-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/compress-video"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Extract Audio -->
   <url>
-    <loc>https://2minedit.com/extract-audio</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/extract-audio"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/extract-audio"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/extract-audio"/>
+    <loc>https://www.2minedit.com/extract-audio</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/extract-audio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/extract-audio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/extract-audio"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/extract-audio</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/extract-audio"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/extract-audio"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/extract-audio"/>
+    <loc>https://www.2minedit.com/en/extract-audio</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/extract-audio"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/extract-audio"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/extract-audio"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Video to GIF -->
   <url>
-    <loc>https://2minedit.com/video-to-gif</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/video-to-gif"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/video-to-gif"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/video-to-gif"/>
+    <loc>https://www.2minedit.com/video-to-gif</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/video-to-gif"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/video-to-gif"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/video-to-gif"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/video-to-gif</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/video-to-gif"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/video-to-gif"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/video-to-gif"/>
+    <loc>https://www.2minedit.com/en/video-to-gif</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/video-to-gif"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/video-to-gif"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/video-to-gif"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- GIF to Video -->
   <url>
-    <loc>https://2minedit.com/gif-to-video</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/gif-to-video"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/gif-to-video"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/gif-to-video"/>
+    <loc>https://www.2minedit.com/gif-to-video</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/gif-to-video"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/gif-to-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/gif-to-video"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/gif-to-video</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/gif-to-video"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/gif-to-video"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/gif-to-video"/>
+    <loc>https://www.2minedit.com/en/gif-to-video</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/gif-to-video"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/gif-to-video"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/gif-to-video"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Compress Images -->
   <url>
-    <loc>https://2minedit.com/compress-images</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/compress-images"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/compress-images"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/compress-images"/>
+    <loc>https://www.2minedit.com/compress-images</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/compress-images"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/compress-images"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/compress-images"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/compress-images</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/compress-images"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/compress-images"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/compress-images"/>
+    <loc>https://www.2minedit.com/en/compress-images</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/compress-images"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/compress-images"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/compress-images"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Resize Images -->
   <url>
-    <loc>https://2minedit.com/resize-images</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/resize-images"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/resize-images"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/resize-images"/>
+    <loc>https://www.2minedit.com/resize-images</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/resize-images"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/resize-images"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/resize-images"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/resize-images</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/resize-images"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/resize-images"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/resize-images"/>
+    <loc>https://www.2minedit.com/en/resize-images</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/resize-images"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/resize-images"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/resize-images"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
 
   <!-- Convert to WebP -->
   <url>
-    <loc>https://2minedit.com/convert-to-webp</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/convert-to-webp"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/convert-to-webp"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/convert-to-webp"/>
+    <loc>https://www.2minedit.com/convert-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/convert-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/convert-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/convert-to-webp"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://2minedit.com/en/convert-to-webp</loc>
-    <xhtml:link rel="alternate" hreflang="es" href="https://2minedit.com/convert-to-webp"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://2minedit.com/en/convert-to-webp"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://2minedit.com/convert-to-webp"/>
+    <loc>https://www.2minedit.com/en/convert-to-webp</loc>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.2minedit.com/convert-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.2minedit.com/en/convert-to-webp"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.2minedit.com/convert-to-webp"/>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>

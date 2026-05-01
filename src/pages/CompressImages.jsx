@@ -118,15 +118,15 @@ export default function CompressImages() {
       <Helmet>
         <title>{title}</title>
         <meta name="description" content={desc} />
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/compress-images' : 'https://2minedit.com/compress-images'} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/compress-images" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/compress-images" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/compress-images" />
+        <link rel="canonical" href={isEN ? 'https://www.2minedit.com/en/compress-images' : 'https://www.2minedit.com/compress-images'} />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/compress-images" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/compress-images" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/compress-images" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": isEN ? "Compress Images Online Free | 2minedit" : "Comprimir imágenes online gratis | 2minedit",
-          "url": isEN ? "https://2minedit.com/en/compress-images" : "https://2minedit.com/compress-images",
+          "url": isEN ? "https://www.2minedit.com/en/compress-images" : "https://www.2minedit.com/compress-images",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "Web",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },

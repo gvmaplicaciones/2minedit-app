@@ -43,10 +43,10 @@ export default function VideoEditor() {
         {isEN
           ? <meta name="description" content="Cut, merge and edit videos online in 2 minutes. No registration, no software. Free video editor for TikTok, Reels, YouTube." />
           : <meta name="description" content="Corta, une y edita vídeos online en 2 minutos. Sin registrarse, sin instalar nada. Editor de vídeo gratis para TikTok, Reels, YouTube." />}
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/video-editor' : 'https://2minedit.com/video-editor'} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/video-editor" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/video-editor" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/video-editor" />
+        <link rel="canonical" href={isEN ? 'https://www.2minedit.com/en/video-editor' : 'https://www.2minedit.com/video-editor'} />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/video-editor" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/video-editor" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/video-editor" />
       </Helmet>
 
       <div style={s.page}>

@@ -64,15 +64,15 @@ export default function GifToVideo() {
       <Helmet>
         <title>{isEN ? 'Convert GIF to MP4 Video Online Free | 2minedit' : 'Convertir GIF a vídeo MP4 online gratis | 2minedit'}</title>
         <meta name="description" content={isEN ? 'Convert any animated GIF to MP4 video online for free. No signup, no install. Perfect for Instagram and TikTok.' : 'Convierte cualquier GIF animado a vídeo MP4 online gratis. Sin registrarte, sin instalar nada.'} />
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/gif-to-video' : 'https://2minedit.com/gif-to-video'} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/gif-to-video" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/gif-to-video" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/gif-to-video" />
+        <link rel="canonical" href={isEN ? 'https://www.2minedit.com/en/gif-to-video' : 'https://www.2minedit.com/gif-to-video'} />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/gif-to-video" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/gif-to-video" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/gif-to-video" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": isEN ? "Convert GIF to MP4 Video Online Free | 2minedit" : "Convertir GIF a vídeo MP4 online gratis | 2minedit",
-          "url": isEN ? "https://2minedit.com/en/gif-to-video" : "https://2minedit.com/gif-to-video",
+          "url": isEN ? "https://www.2minedit.com/en/gif-to-video" : "https://www.2minedit.com/gif-to-video",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "Web",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },

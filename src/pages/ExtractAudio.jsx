@@ -66,15 +66,15 @@ export default function ExtractAudio() {
       <Helmet>
         <title>{isEN ? 'Extract Audio from Video Online Free | 2minedit' : 'Extraer audio de vídeo online gratis | 2minedit'}</title>
         <meta name="description" content={isEN ? 'Extract audio from any video and download it as MP3 for free. No signup, no install.' : 'Extrae el audio de cualquier vídeo y descárgalo como MP3 gratis. Sin registrarte.'} />
-        <link rel="canonical" href={isEN ? 'https://2minedit.com/en/extract-audio' : 'https://2minedit.com/extract-audio'} />
-        <link rel="alternate" hrefLang="es" href="https://2minedit.com/extract-audio" />
-        <link rel="alternate" hrefLang="en" href="https://2minedit.com/en/extract-audio" />
-        <link rel="alternate" hrefLang="x-default" href="https://2minedit.com/extract-audio" />
+        <link rel="canonical" href={isEN ? 'https://www.2minedit.com/en/extract-audio' : 'https://www.2minedit.com/extract-audio'} />
+        <link rel="alternate" hrefLang="es" href="https://www.2minedit.com/extract-audio" />
+        <link rel="alternate" hrefLang="en" href="https://www.2minedit.com/en/extract-audio" />
+        <link rel="alternate" hrefLang="x-default" href="https://www.2minedit.com/extract-audio" />
         <script type="application/ld+json">{JSON.stringify({
           "@context": "https://schema.org",
           "@type": "WebApplication",
           "name": isEN ? "Extract Audio from Video Online Free | 2minedit" : "Extraer audio de vídeo online gratis | 2minedit",
-          "url": isEN ? "https://2minedit.com/en/extract-audio" : "https://2minedit.com/extract-audio",
+          "url": isEN ? "https://www.2minedit.com/en/extract-audio" : "https://www.2minedit.com/extract-audio",
           "applicationCategory": "MultimediaApplication",
           "operatingSystem": "Web",
           "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
